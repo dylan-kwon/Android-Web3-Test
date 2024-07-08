@@ -19,7 +19,7 @@ web3j generate solidity -a=./vote-contract/abi/VoteContract.abi -b=./vote-contra
 ## Test
 
 - [Create and Restore Crypto Wallet (BIP-39)](./app/src/test/java/dylan/kwon/web3test/CryptoWalletTest.kt)
-- [Call the Smart Contract](./app/src/test/java/dylan/kwon/web3test/ContractTest.kt)
+- [Call the Smart Contract](./app/src/test/java/dylan/kwon/web3test/VoteContractTest.kt)
 
 ### ENV
 
