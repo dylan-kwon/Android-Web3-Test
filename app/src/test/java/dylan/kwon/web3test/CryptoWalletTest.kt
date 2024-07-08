@@ -88,9 +88,6 @@ class CryptoWalletTest {
 
         // Restore Wallet
         val differentMnemonic = "abcd"
-        val restoreWallet = WalletUtils.generateBip39WalletFromMnemonic(
-            password, differentMnemonic, dir
-        )
         val restoreWalletCredentials = WalletUtils.loadBip39Credentials(
             password, differentMnemonic
         )

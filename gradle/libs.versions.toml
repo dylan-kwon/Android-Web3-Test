@@ -12,6 +12,7 @@ web3j-core = "4.12.0"
 web3j-android = "4.8.9-android"
 truth = "1.4.3"
 jetbrainsKotlinJvm = "1.9.24"
+coroutine = "1.9.0-RC"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -31,7 +32,9 @@ androidx-material3 = { group = "androidx.compose.material3", name = "material3" 
 web3j-core = { group = "org.web3j", name = "core", version.ref = "web3j-core" }
 web3j-android = { group = "org.web3j", name = "core", version.ref = "web3j-android" }
 test-truth = { group = "com.google.truth", name = "truth", version.ref = "truth" }
-
+coroutine-rx2 = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-rx2", version.ref = "coroutine" }
+coroutine-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutine" }
+coroutine-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutine" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

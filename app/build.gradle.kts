@@ -67,5 +67,8 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     testImplementation(libs.test.truth)
+    implementation(libs.coroutine.rx2)
+    implementation(libs.coroutine.android)
+    implementation(libs.coroutine.test)
     implementation(project(":vote-contract"))
 }
